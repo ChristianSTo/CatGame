@@ -5,6 +5,7 @@ import Assets from "./components/Assets";
 
 // import Canvas from "./components/Canvas";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Main />
       <Assets />
-      {/* <Canvas /> */}
+      <Footer />
     </>
   );
 }

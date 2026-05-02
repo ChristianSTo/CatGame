@@ -12,7 +12,7 @@ function Header() {
       <h1 className="header__title">
         Cat Platform Game...
         <span className="header__span">
-          but the cat is too smol to reach anything... <br></br>© Christian To
+          but the cat is too smol to reach anything...
         </span>
       </h1>
     </div>
