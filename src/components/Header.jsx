@@ -1,5 +1,5 @@
 import "../blocks/header.css";
-import cat from "../assets/images/cat1.png";
+import cat from "../assets/images/Appicon.png";
 
 function Header() {
   const style = {
@@ -10,6 +10,7 @@ function Header() {
   return (
     <div className="header">
       <h1 className="header__title">
+        <img className="header__image" src={cat} alt="Cat Icon" />
         Cat Platform Game...
         <span className="header__span">
           but the cat is too smol to reach anything...
