@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.cat {
+  width: 150px;
+  transition: left 0.3s ease, top 0.3s linear;
+}
+
+.cat:hover {
+  cursor: pointer;
+}
+
+.cat__image {
+  width: 150px;
+  position: absolute;
+}
+
+.main__ground {
+  position: absolute;
+  top: 0;
+}
+
+.main__game {
+  position: relative;
+}

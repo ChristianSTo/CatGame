@@ -1,0 +1,19 @@
+.header {
+  position: absolute;
+  z-index: 5;
+  bottom: -15px;
+  left: 0px;
+  right: 0px;
+  background-color: #153995;
+}
+
+.header__title {
+  font-family: sans-serif;
+  font-size: xx-large;
+  color: #fff;
+}
+
+.header__span {
+  font-size: medium;
+  font-style: italic;
+}
